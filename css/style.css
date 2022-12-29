@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  font-family: monospace;
+}
+
+.row {
+  display: flex;
+}
+
+.g-1 {
+  gap: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+h2.header {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.start-from-new,
+.history,.del-history {
+  padding: 3px 20px;
+  width: 120px;
+  color: green;
+  background-color: inherit;
+  outline: 1px solid;
+  font-weight: bold;
+  height: 25px;
+}
+.history {
+
+}
+.start-from-new{
+  
+}
+.del-history {
+
+}
+input.quantity {
+  width: 60px;
+}
+
+input.cost {
+  width: 100px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 3px 6px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+button.add,.remove {
+  color: white;
+
+}
+button.add{
+  background-color: #008000;
+  margin: 10px 0px;
+  width: 100%;
+  font-weight: bold;
+}
+.remove{
+  background: red;
+  color: black;
+
+}
+input:focus {
+  outline: none;
+}
+
+.readonly-input {
+  background-color: #f1f3f4;
+  border: none;
+  height: 20px;
+  border-radius: 10px 5px;
+  width: 80px;
+  -webkit-border-radius: 10px 5px;
+  -moz-border-radius: 10px 5px;
+  -ms-border-radius: 10px 5px;
+  -o-border-radius: 10px 5px;
+}
+
+.amount {
+  border: none;
+  background-color: green;
+  height: 20px;
+  border-radius: 0px 5px;
+  width: 80px;
+  color: white;
+  padding: 0px 5px;
+}
+
+.save {
+  margin: 10px;
+  width: 300px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: monospace;
+}
+
+td {
+  padding: 3px 10px;
+  border: 1px solid;
+}
