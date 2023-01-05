@@ -1,8 +1,8 @@
 const assets = [
   "/",
   "/index.html",
-  // '/manifest.json',
-  // '/serviceWorker.js',
+  '/manifest.json',
+  '/serviceWorker.js',
   '/css/style.css',
   '/js/app.js',
   '/js/calc.js',
